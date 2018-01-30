@@ -1,0 +1,41 @@
+{
+    "id": "content",
+    "name": "W20 content fragment",
+
+    "modules": {
+        "content": {
+            "path": "{content}/modules/content",
+            "autoload": true
+        },
+        "style": {
+            "path": "[css]!{content}/style/style.css",
+            "autoload": true
+        }
+    },
+
+    "i18n": {
+        "en": ["{content}/i18n/messages-en.json"],
+        "fr": ["{content}/i18n/messages-fr.json"]
+    },
+
+    "routes": {
+        "content":{
+            "templateUrl":"{content}/views/content.html",
+            "controller":"ContentController"
+        }
+    },
+    "requireConfig" : {
+        "paths": {
+            "{angular-bootstrap-datepicker}":"${components-path:bower_components}/angular-bootstrap-datepicker/dist",
+            "{bootstrap-datepicker}":"${components-path:bower_components}/bootstrap-datepicker/dist",
+            "{modernizr}":"lib/modernizr-custom"
+        },
+
+        "shim" : {
+              "{angular-bootstrap-datepicker}/angular-bootstrap-datepicker": {
+                "deps": ["{angular}/angular","jquery","{bootstrap}/js/bootstrap"],
+                    "exports": "angular-bootstrap-datepicker"
+              }
+          }
+      }
+}

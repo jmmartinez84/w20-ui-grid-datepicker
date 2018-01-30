@@ -1,0 +1,18 @@
+{
+  "name": "pie",
+  "version": "0.0.1",
+  "dependencies": {
+    "w20-bootstrap-3": "~2.2.0",
+    "w20-business-theme": "~1.2.2",
+    "w20": "~2.3.0",
+    "w20-components": "~2.2.1",
+    "angular-daterangepicker": "^0.2.2",
+    "ngDatepicker": "*",
+    "angular-bootstrap-datepicker": "^0.3.1",
+    "bootstrap-datepicker": "^1.7.1",
+    "modernizr": "^3.5.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.8"
+  }
+}
