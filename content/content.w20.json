@@ -26,8 +26,8 @@
     },
     "requireConfig" : {
         "paths": {
-            "{angular-bootstrap-datepicker}":"${components-path:bower_components}/angular-bootstrap-datepicker/dist",
-            "{bootstrap-datepicker}":"${components-path:bower_components}/bootstrap-datepicker/dist",
+            "{angular-bootstrap-datepicker}":"${components-path:node_modules}/angular-bootstrap-datetimepicker/dist",
+            "{bootstrap-datepicker}":"${components-path:node_modules}/bootstrap-datepicker/dist",
             "{modernizr}":"lib/modernizr-custom"
         },
 

@@ -1,7 +1,7 @@
 {
     "content/content.w20.json": {
     },
-    "bower_components/w20/w20-core.w20.json": {
+    "node_modules/@w20/w20/w20-core.w20.json": {
         "modules": {
             "application": {
                 "id": "",
@@ -40,14 +40,14 @@
             }
         }
     },
-    "bower_components/w20-components/w20-components.w20.json": {
+    "node_modules/@w20/w20-components/w20-components.w20.json": {
         "modules": {
             "select": {},
             "grid": {}
         }
     },
-    "bower_components/w20-bootstrap-3/w20-bootstrap-3.w20.json": {},
-    "bower_components/w20-business-theme/w20-business-theme.w20.json": {
+    "node_modules/@w20/w20-bootstrap-3/w20-bootstrap-3.w20.json": {},
+    "node_modules/@w20/w20-business-theme/w20-business-theme.w20.json": {
         "modules": {
             "main": {
                 "sidebar": {

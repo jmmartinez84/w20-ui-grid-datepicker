@@ -10,7 +10,7 @@ module.exports = function(config) {
             { pattern: 'w20.app.json', served: true, included: false },
 
             { pattern: 'pie/**/*.js', included: false },
-            { pattern: 'bower_components/**/*', included: false }
+            { pattern: 'node_modules/**/*', included: false }
         ],
         preprocessors: {
             'pie/modules/*.js': 'coverage'
