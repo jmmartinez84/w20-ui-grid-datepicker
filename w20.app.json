@@ -5,7 +5,7 @@
         "modules": {
             "application": {
                 "id": "",
-                "home": "/pie/content",
+                "home": "/content/content",
                 "blank": "/blank",
                 "notFound": "/not-found",
                 "redirectAfterRouteError": "/error",
@@ -21,12 +21,6 @@
             },
             "env": {
                 "type": "test"
-            },
-            "security": {
-                "autoLogin": true,
-                "redirectAfterLogout": "/",
-                "redirectAfterLogin": "/",
-                "persistentRestrictions": false
             },
             "utils": {},
             "notifications": {
